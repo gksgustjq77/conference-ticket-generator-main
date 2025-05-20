@@ -1,8 +1,15 @@
-const Button: React.FC = () => {
+interface ButtonProps {
+  onClick: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({ onClick }) => {
   return (
     <div className="w-full flex justify-center ">
       <div className="w-full max-w-md bg-[hsl(7,71%,60%)] rounded-[7px] ">
-        <button className="w-full text-white bg-transparent bg-no-repeat h-[45px] px-3">
+        <button
+          className="w-full text-white bg-transparent bg-no-repeat h-[45px] px-3"
+          onClick={onClick}
+        >
           <p className="font-bold text-[hsl(248,70%,10%)]">
             Generate My Ticket
           </p>

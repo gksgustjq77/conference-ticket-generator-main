@@ -7,14 +7,16 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
   <div
-    className={`${styles.container} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1`}
+    className={`${styles.container} grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1`}
   >
-    <div
-      className={`${styles.content} text-sm sm:text-base md:text-sm lg:text-xl`}
-    >
-      {children}
+    <div className={styles.patternTop}>
+      <div
+        className={`${styles.content} text-sm sm:text-base md:text-sm lg:text-xl`}
+      >
+        {children}
+      </div>
+      <div className={styles.anotherElement}></div>
     </div>
-    <div className={styles.anotherElement}></div>
   </div>
 );
 
