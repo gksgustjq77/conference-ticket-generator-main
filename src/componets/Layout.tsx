@@ -11,7 +11,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
   >
     <div className={styles.patternTop}>
       <div
-        className={`${styles.content} text-sm sm:text-base md:text-sm lg:text-xl`}
+        className={`${styles.content} text-sm sm:text-base p-0 md:text-sm lg:text-sm`}
       >
         {children}
       </div>

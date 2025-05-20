@@ -1,7 +1,7 @@
 const JoinMsg: React.FC = () => {
   return (
     <div className="flex items-center justify-center flex-col mb-[30px]">
-      <div className="text-center leading-tight font-bold mb-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+      <div className="text-center leading-tight font-bold mb-2 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
         <p>Your Journey to Coding Conf</p>
         <p>2025 Starts Here!</p>
       </div>
