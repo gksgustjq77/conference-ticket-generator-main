@@ -9,8 +9,6 @@ const TicketSVG: React.FC<Props> = ({ props }) => {
     day: "numeric",
   });
 
-  console.log("props", props);
-
   const fileImg = localStorage.getItem("fileData");
   //const file = props?.imgFile || (null as unknown as File);
   return (
