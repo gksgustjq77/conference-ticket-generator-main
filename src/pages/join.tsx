@@ -27,7 +27,7 @@ const Join: React.FC = () => {
       typeof formData.email !== "string" ||
       !emailRegex.test(formData.email)
     ) {
-      alert("유효한 이메일 주소를 입력해주세요.");
+      //  alert("유효한 이메일 주소를 입력해주세요.");
       return;
     }
 
