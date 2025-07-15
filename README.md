@@ -19,8 +19,10 @@
 
 ## Phone 📱
 
-![](./src/assets/screenshot/mobile/m-sm_1.png)
-![](./src/assets/screenshot/mobile/m-sm_2.png)
+<p align="left">
+  <img src="./src/assets/screenshot/mobile/m-sm_1.png" width="200" />
+  <img src="./src/assets/screenshot/mobile/m-sm_2.png" width="200" />
+</p>
 
 ## 기술 스택 📚
 
